@@ -39,6 +39,8 @@ export const StyledDiv = styled.div`
   }
 
   .form-container {
+    flex-direction: column;
+    width: 500px;
     padding-top: 5%;
 
     h3 {
@@ -55,10 +57,12 @@ export const StyledDiv = styled.div`
     font-size: 18px;
     padding-top: 20px;
     align-items: center;
+    border-bottom: solid 1px black;
   }
 
   .button {
     padding-bottom: 15px;
+    border: none;
     cursor: pointer;
   }
   .button:hover {
