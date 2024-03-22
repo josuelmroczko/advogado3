@@ -214,6 +214,7 @@ export const data = {
     },
     whatsapp:{
         imgWhatsapp:whatsapp , 
+        linkWhatsap:'https://wa.me/5511993093681?text=Ol%C3%A1+',
     }
     
 };

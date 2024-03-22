@@ -30,8 +30,9 @@ function App() {
       ) : (
         <>
         <div className='whatsapp'>
-          <img src={data.whatsapp.imgWhatsapp} alt='whatsapp'/>
-        </div>
+        <a href={data.whatsapp.linkWhatsap} target='_blank' rel='noopener noreferrer'>
+        <img src={data.whatsapp.imgWhatsapp} alt='whatsapp' />
+      </a>        </div>
         
           <Topo />
         
