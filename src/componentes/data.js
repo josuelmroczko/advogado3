@@ -70,7 +70,7 @@ export const data = {
         titulo:'PRINCIPAIS ÁREAS DE ATUAÇÃO EM DÍVIDAS',
         texto:'Conheça mais sobre as principais áreas de atuação da nossa advocacia especializada em dívidas',
         corH2:'rgba(250, 250, 250, 1)',
-        corFundoOpcoesDeServicos:'rgba(61, 61, 61, 0.78)',
+        corFundoOpcoesDeServicos:'rgb( 20, 20, 20)',
         corTextos:'rgba(250, 250, 250, 1)',
 
         tributaria:{

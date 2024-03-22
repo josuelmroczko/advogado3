@@ -35,7 +35,7 @@ export const StyledServicos = styled.section`
     background-color: ${data.servicos.corFundoOpcoesDeServicos};
     text-align: center;
     max-width: 400px;
-    height: 300px;
+    height: 350px;
     margin: 5px;
     width: 33.33%;
     padding: 2%;
