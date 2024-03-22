@@ -18,6 +18,7 @@ import adv2foto from '../public/imagem/adv2.jpg'
 import adv3foto from '../public/imagem/adv3.jpg'
 import adv4foto from '../public/imagem/adv4.jpg'
 import fotoadv from '../public/imagem/fotoAdvogado.jpg'
+import whatsapp from '../public/imagem/whatsapp.png'
  
 export const data = {
     style:{
@@ -210,6 +211,9 @@ export const data = {
         texto8: 'Defesa em Ações de Cobrança',
     
         Copyrigh:'© Copyright Advocacia de Dívidas'
+    },
+    whatsapp:{
+        imgWhatsapp:whatsapp , 
     }
     
 };

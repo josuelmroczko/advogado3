@@ -10,6 +10,8 @@ import FaleConosco from './componentes/faleConoscoSessao4/faleConosco';
 import ContatoConteudo from './componentes/faleConoscoSessao4/faleConosco';
 import Local from './componentes/localizacao/local';
 import Footer from './componentes/footer/footer';
+import { data } from './componentes/data';
+ 
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -27,7 +29,12 @@ function App() {
         <div className="loading-circle"></div>
       ) : (
         <>
+        <div className='whatsapp'>
+          <img src={data.whatsapp.imgWhatsapp} alt='whatsapp'/>
+        </div>
+        
           <Topo />
+        
           <Navbar/>
           <SobreNos />
           <Servicos/>
@@ -35,6 +42,7 @@ function App() {
            <ContatoConteudo/>
            <Local/>
            <Footer/>
+     
         </>
       )}
     </div>

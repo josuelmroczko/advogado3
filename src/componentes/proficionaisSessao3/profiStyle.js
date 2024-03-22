@@ -12,17 +12,13 @@ export const StyleProficionais = styled.div`
   }
 
   li {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     list-style: none;
     position: relative;
     margin-bottom: 70px;
-  }
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+ 
+  } 
   li::after {
     content: "";
     position: absolute;
@@ -30,16 +26,23 @@ export const StyleProficionais = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
+   
     background-color: rgba(0, 0, 0, 0);
     transition: background-color 0.3s ease;
   }
   li:hover::after {
     background-color: rgba(0, 0, 0, 0.4);
   }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } 
   span {
     color:${data.style.corSpanTimeDeESpecialista};
     padding: 10px;
     font-size: 2rem; /* Tamanho de fonte fixo */
+    
   }
   h2 {
     padding: 5px;

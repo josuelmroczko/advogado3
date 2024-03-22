@@ -13,6 +13,7 @@ export const StyledTopo = styled.div`
     opacity: 0; /* Inicialmente torna o topo invisível */
     transition: opacity 1s ease; /* Adiciona uma transição suave de 1 segundo para a propriedade de opacidade */
 
+    
     ul {
         list-style: none;
         display: flex;  
@@ -73,15 +74,13 @@ export const StyledApresentacao = styled.div`
     padding-left: 30px;
     height: 100vh;
     position: relative;
-    opacity: 0; /* Inicialmente torna o topo invisível */
-    transition: opacity 1s ease;  /* Adiciona uma transição suave de 1 segundo para a propriedade de opacidade */
+    opacity: 0;
+    transition: opacity 1s ease;
 
-    /* Adicionando o gradiente linear como plano de fundo */
     background-image: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(${props => props.backgroundImage});
     background-size: cover;
-    background-position: right; /* Alteração: Definindo a posição da imagem para a direita */
-
-    /* Pseudo-elemento para adicionar uma sobreposição escura */
+    background-position: center; /* Alterando para centralizar a imagem */
+    
     &::after {
         content: "";
         position: absolute;
@@ -92,9 +91,8 @@ export const StyledApresentacao = styled.div`
         background-color: rgba(0, 0, 0, 0.4);
         z-index: 1;
     }
-
     h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-top: 0;
         z-index: 2;
         position: relative;
@@ -103,7 +101,8 @@ export const StyledApresentacao = styled.div`
         font-weight: bolder;
         color: ${data.topoMenu.corTexto};
         transition: color 1s ease;
-        width: 50%;
+        max-width: 600px;
+        width:100%;
     }
 
     p {
