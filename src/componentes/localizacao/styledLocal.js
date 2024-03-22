@@ -10,6 +10,7 @@ export const StyledLocal = styled.div`
     height: 400px;
     margin-bottom: 50px;
     border-radius: 50px;
+    box-shadow: 10px 14px 14px rgba(0, 0, 0, 1.25); /* Adiciona sombra em baixo */
 
     @media (max-width: 768px) {
       width: 80%; /* Ajuste para telas menores */
