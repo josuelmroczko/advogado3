@@ -192,7 +192,7 @@ export const data = {
         titulo1:'Advocacia de Dívidas',
         texto:'Advocacia especializada em dívidas e cobranças, com serviços em várias áreas do direito. Equipe reduzida de especialistas, atendendo cada caso pessoalmente.',
     
-        titulo2:'VISITE-NOS',
+        titulo2:'Visite-nos',
         semana:'✔ Seg-Sex',
         endereco:'🗺️ Rua qualquer, 111 - São Paulo/SP',
         linkEndereço:'https://maps.app.goo.gl/H1g2oA887sn6UWko7',

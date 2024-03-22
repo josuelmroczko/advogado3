@@ -21,7 +21,7 @@ export const Footersection = styled.div`
     color: black;
 
    }
-   h1{
+   h2{
     line-height: 40px;
    }
     .redesSociaisFooter{
