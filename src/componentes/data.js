@@ -190,7 +190,7 @@ export const data = {
 
     fotter:{
         titulo1:'Advocacia de Dívidas',
-        texto:'Escritório de Advocacia especializado em questões relacionadas a dívidas e cobranças, oferecendo serviços nas áreas Tributária, Empresarial, Trabalhista, Civil, Família e Sucessões. Contamos com uma equipe enxuta de profissionais especializados que lidam pessoalmente com cada caso.',
+        texto:'Advocacia especializada em dívidas e cobranças, com serviços em várias áreas do direito. Equipe reduzida de especialistas, atendendo cada caso pessoalmente.',
     
         titulo2:'VISITE-NOS',
         semana:'✔ Seg-Sex',
